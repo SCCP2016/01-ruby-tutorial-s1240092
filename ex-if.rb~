@@ -1,0 +1,12 @@
+a, b = STDIN.gets.split.map(&:to_i)
+
+puts a
+puts b
+
+if a < b then
+  puts a < b
+if a > b then
+  puts a > b
+if a == b then
+  puts a ==b
+end  
