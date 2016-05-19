@@ -21,3 +21,12 @@ loop{
     break
   end
 }
+
+
+if op == "?" then
+break
+else
+puts(case op
+when "+"
+a + b
+when "--")
